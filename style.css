@@ -1,5 +1,5 @@
 body {
-    background-color: #FFFFFF;
+    background-color:#C8C8C8;
     font-family: Roboto;
 }
 
@@ -10,9 +10,9 @@ body {
 }
 
 .cart-box {
+    background-color: #FFF;
     width: 462px;
     height: 603px;
-    /* border: 1px solid black; */
     justify-content: center;
     align-items: center;
     display: flex;
@@ -116,7 +116,9 @@ h4 {
 
 .main-content div {}
 
-
+.units:hover {
+    cursor: pointer;
+}
 
 /*-------- first box ---------------- */
 
