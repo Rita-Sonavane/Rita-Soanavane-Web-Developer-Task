@@ -1,6 +1,7 @@
 body {
-    background-color:#C8C8C8;
+    background-color: #FFF;;
     font-family: Roboto;
+    
 }
 
 .container {
@@ -10,7 +11,7 @@ body {
 }
 
 .cart-box {
-    background-color: #FFF;
+    /* background-color: #FFF; */
     width: 462px;
     height: 603px;
     justify-content: center;
