@@ -12,7 +12,7 @@ body {
 .cart-box {
     width: 462px;
     height: 603px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     justify-content: center;
     align-items: center;
     display: flex;
@@ -122,6 +122,14 @@ h4 {
 
 .unit-header {
     display: flex;
+    /* height: 100%; */
+    align-items: center;
+    justify-content: space-around;
+}
+
+.unit-header2 {
+    display: flex;
+    margin-top:-30px;
     /* height: 100%; */
     align-items: center;
     justify-content: space-around;
