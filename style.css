@@ -1,7 +1,7 @@
 body {
     background-color: #FFF;;
-    font-family: Roboto;
-    
+    font-family: Inter;
+    cursor: default;
 }
 
 .container {
@@ -14,6 +14,7 @@ body {
     /* background-color: #FFF; */
     width: 462px;
     height: 603px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     justify-content: center;
     align-items: center;
     display: flex;
@@ -27,7 +28,7 @@ body {
 
 .header {
     color: #FF6B82;
-    font-family: Roboto ; 
+    font-family: Inter ; 
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
@@ -96,9 +97,9 @@ h4 {
 
 .units {
     width: 100%;
-    /* display: flex; */
-    justify-content: space-between;
-    /* align-items: center;  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 74.11px;
     transition: height 0.3s;
     border: 0.9px solid #C8C8C8;
@@ -146,28 +147,38 @@ h4 {
 }
 
 
-.section-text {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.section-1 {
+     display: flex;
+    /*flex-direction: column;
+    align-items: flex-start; */
 }
 
+.section-1 label {
+    width: 38px;
+    display: contents;
+     /* display: flex; */
+    /*flex-direction: column;
+    align-items: flex-start; */
+}
 
 .section-price {
     display: flex;
     flex-direction: column;
 
 }
+.section-price h3{
+    margin: 0px;
+}
 
 s {
     font-size: 14px;
     color: #C8C8C8;
-    font-family: Roboto
+    font-family: Inter
 }
 
 h3 {
     margin-bottom: 0;
-    font-family: Roboto;
+    font-family: Inter;
     font-size: 18px;
 }
 
@@ -176,8 +187,10 @@ h3 {
 }
 
 .card {
+    width: 55px;
+    height: 17px;
     background-color: #FF6B82;
-    font-family: Roboto;
+    font-family: Inter;
     box-shadow: 0 0 8px 1.7px rgba(0, 0, 0, 0.06);
     color: #FFF;
     display: inline-block;
@@ -185,7 +198,9 @@ h3 {
     font-weight: 500;
     letter-spacing: 1px;
     padding: 3px 1px;
-    width: 100%;
+    margin-left: 10px;
+    border-radius: 1px;
+    /* width: 100%; */
     text-align: center;
 }
 
@@ -196,8 +211,13 @@ h3 {
 
 .most-popular-box {
     position: relative;
-    top: -10px;
-    left: 206px;
+    top: -24px;
+    left: 214px;
+}
+
+.active .most-popular-box{
+    top: -18px;
+    left: 217px;
 }
 
 .most-popular-box .space-container {
@@ -214,7 +234,7 @@ h3 {
     position: relative;
     text-align: center;
 
-    font-family: Roboto ; 
+    font-family: Inter ; 
     font-size: 12px;
     font-weight: 700;
     line-height: 15px;
@@ -255,7 +275,7 @@ h3 {
     /* height: 100%; */
     align-items: center;
     justify-content: flex-start;
-    margin-left: 50px;
+    margin: 10px 0px 0px 50px;
 }
 
 
@@ -324,6 +344,7 @@ select {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .cart-btn .icon {
@@ -332,7 +353,7 @@ select {
 
 .cart-btn .btn-title {
     text-align: center;
-    font-family: Roboto ; 
+    font-family: Inter ; 
     font-size: 16px;
     font-weight: 500;
     line-height: 15px;
@@ -359,18 +380,18 @@ select {
 }
 
 label {
-    display: flex;
+    /* display: flex; */
     /* margin: 10px 15px; */
     margin-bottom: 0;
     color: #000;
     /* font-family: Inter; */
-    font-family: Roboto ; 
+    font-family: Inter ; 
     font-size: 18px;
     font-weight: 600;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
     /* border: 1px solid; */
     height: 24px;
@@ -395,14 +416,14 @@ label {
 
   .total-price-left span{
     color: #FF6B82;
-    font-family: Roboto ; 
+    font-family: Inter ; 
     font-size: 18px;
     font-weight: bold;
   }
 
   .total-price-right{
     color: #000;
-    font-family: Roboto ; 
+    font-family: Inter ; 
     font-size: 18px; 
     font-weight: bold;
   }
@@ -416,7 +437,13 @@ label {
 
   .footer-section span{
     color: #C8C8C8;
-    font-size: 16px;
+    height: 15px;
+    width: 129px;
+    font-family: Inter;
+    font-size: 12px;
     font-style: italic;
-    letter-spacing: 0.4px; 
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
   }
